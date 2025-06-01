@@ -75,9 +75,9 @@ export const projects: IProject[] = [
     description: "Developed a Personal Finance Management application using JavaFX, enabling users to track income, expenses, and budgets. Implemented an intuitive UI with interactive charts, data persistence, and smooth navigation for an enhanced user experience.",
     imageUrl: "/Finance/Screenshot 2025-06-01 002735.png",
     images: [
-      "/Finance/Screenshot 2025-06-01 002735.png",
-      "/Finance/Screenshot 2025-06-01 002804.png",
-      "/Finance/Screenshot 2025-06-01 002834.png"
+      "/pfin/Screenshot 2025-06-01 002735.png",
+      "/pfin/Screenshot 2025-06-01 002804.png",
+      "/pfin/Screenshot 2025-06-01 002834.png"
     ],
     techStack: ["javaFX", "Java", "PostgreSQL"],
     githubUrl: "https://github.com/Amene19/Personal-Finance-app.git",
@@ -100,8 +100,8 @@ export const projects: IProject[] = [
     description: "A unique pixel art–themed web portfolio built with React, blending retro aesthetics with modern development. Showcases personal projects, skills, and experiences through an interactive, game-inspired interface that reflects both creativity and technical expertise.",
     imageUrl: "/Portfolio/Screenshot 2025-06-01 011146.png",
     images: [
-      "/Portfolio/Screenshot 2025-06-01 011146.png",
-      "/Portfolio/Screenshot 2025-06-01 011217.png"
+      "/port/Screenshot 2025-06-01 011146.png",
+      "/port/Screenshot 2025-06-01 011217.png"
     ],
     techStack: ["React", "JavaScript"],
     githubUrl: "https://github.com/Amene19/Personal-Portfolio-.git",
