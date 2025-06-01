@@ -28,131 +28,133 @@ export interface ISkill {
 export const projects: IProject[] = [
   {
     id: 1,
-    title: "AI-Powered Code Assistant",
-    description: "An intelligent code completion and suggestion tool powered by machine learning, supporting multiple programming languages and frameworks.",
-    imageUrl: "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "QHSE Tracking System with MERN Stack",
+    description: "Developed a web application for managing Quality, Health, Safety, and Environment (QHSE) processes using the MERN stack. The system enables efficient tracking of incidents, audits, and reports, with features like user role management and automated reporting to enhance compliance and operational safety.",
+    imageUrl: "../public/QHSE/Screenshot 2025-05-29 183906.png",
     images: [
-      "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "../public/QHSE/Screenshot 2025-05-29 183906.png",
+      "../public/QHSE/Screenshot 2025-05-29 183950.png",
+      "../public/QHSE/Screenshot 2025-05-29 184047.png",
+      "../public/QHSE/Screenshot 2025-05-29 184309.png"
     ],
-    techStack: ["Python", "TensorFlow", "FastAPI", "React", "TypeScript"],
-    githubUrl: "https://github.com/yourusername/ai-code-assistant",
-    demoUrl: "https://ai-assistant.example.com"
+    techStack: ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
+    githubUrl: "https://github.com/Amene19/QHSE-Project.git",
+    
   },
   {
     id: 2,
-    title: "Cross-Platform Desktop App",
-    description: "A powerful desktop application built with Electron and React, featuring real-time data visualization and system monitoring.",
-    imageUrl: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "Passport Management and Processing System",
+    description: "A cross-platform system designed for the Embassy of Spain to streamline passport categorization and requirement tracking. It includes a React.js web app for workers and an Electron.js desktop dashboard for admins, all connected to a Node.js + Express backend with a MySQL database. Features include passport scanning, requirement assignment, automatic PDF generation, real-time statistics, and a fully automated setup process for easy deployment.",
+    imageUrl: "../public/passport/Screenshot 2025-05-29 183446.png",
     images: [
-      "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "../public/passport/Screenshot 2025-05-29 183446.png",
+      "../public/passport/Screenshot 2025-05-29 183505.png",
+      "../public/passport/Screenshot 2025-05-29 183521.png",
+      "../public/passport/Screenshot 2025-05-29 183550.png",
+      "../public/passport/Screenshot 2025-05-29 183620.png"
+      
     ],
-    techStack: ["Electron", "React", "Node.js", "D3.js", "SQLite"],
-    githubUrl: "https://github.com/yourusername/desktop-monitor"
+    techStack: ["Electron", "React", "Node.js", "PostgreSQL", "Express	"],
+    githubUrl: "https://github.com/Amene19/Manage-Passport.git"
   },
   {
     id: 3,
-    title: "Mobile Health Tracker",
-    description: "A React Native mobile app for health and fitness tracking, integrating with wearable devices and providing AI-powered insights.",
-    imageUrl: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "Business Portfolio and Reservation Management System",
+    description: "Developed a full-stack web application using React, Express, and MySQL, showcasing a company’s business portfolio and enabling users to make reservations for offered services. The system features dynamic content management, user-friendly interfaces, and a seamless booking workflow tailored for client engagement.",
+    imageUrl: "../public/machro3i/Screenshot 2025-06-01 001938.png",
     images: [
-      "https://images.pexels.com/photos/3825569/pexels-photo-3825569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/3825578/pexels-photo-3825578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/3825584/pexels-photo-3825584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "../public/machro3i/Screenshot 2025-06-01 001938.png",
+      "../public/machro3i/Screenshot 2025-06-01 002044.png",
+      "../public/machro3i/Screenshot 2025-06-01 002126.png",
+      "../public/machro3i/Screenshot 2025-06-01 002212.png"
     ],
-    techStack: ["React Native", "TypeScript", "Firebase", "TensorFlow Lite"],
-    githubUrl: "https://github.com/yourusername/health-tracker",
-    demoUrl: "https://health-tracker.example.com"
+    techStack: ["React", "Node.js", "MySql", "Express	"],
+    githubUrl: "https://github.com/Amene19/Machrou3i-Fi-Bledi.git"
   },
   {
     id: 4,
-    title: "Neural Network Visualizer",
-    description: "An interactive web application for visualizing and understanding neural networks, with real-time training demonstrations.",
-    imageUrl: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "Personal Finance Management application",
+    description: "Developed a Personal Finance Management application using JavaFX, enabling users to track income, expenses, and budgets. Implemented an intuitive UI with interactive charts, data persistence, and smooth navigation for an enhanced user experience.",
+    imageUrl: "../public/pfin/Screenshot 2025-06-01 002735.png",
     images: [
-      "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/8386452/pexels-photo-8386452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/8386466/pexels-photo-8386466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "../public/pfin/Screenshot 2025-06-01 002735.png",
+      "../public/pfin/Screenshot 2025-06-01 002804.png",
+      "../public/pfin/Screenshot 2025-06-01 002834.png"
     ],
-    techStack: ["React", "Three.js", "Python", "WebGL", "FastAPI"],
-    githubUrl: "https://github.com/yourusername/nn-visualizer",
-    demoUrl: "https://nn-viz.example.com"
+    techStack: ["javaFX", "Java", "PostgreSQL"],
+    githubUrl: "https://github.com/Amene19/Personal-Finance-app.git",
   },
   {
     id: 5,
-    title: "Smart Home Dashboard",
-    description: "A comprehensive IoT dashboard for smart home control, featuring machine learning for automation and energy optimization.",
-    imageUrl: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "Camping Reservation System",
+    description: "Developed a web application for camping reservations using the MERN stack . The platform allows users to browse campsites, check availability, and make bookings. ",
+    imageUrl: "../public/camping/Image 1 juin 2025, 01_03_15.png",
     images: [
-      "https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/3183156/pexels-photo-3183156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/3183162/pexels-photo-3183162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "../public/camping/Image 1 juin 2025, 01_03_15.png",
+      "../public/camping/Image 1 juin 2025, 01_06_17.png"
     ],
-    techStack: ["React", "Node.js", "MQTT", "TensorFlow.js", "WebSocket"],
+    techStack: ["React", "Node.js", "Express", "NextJs", "MySql"],
     githubUrl: "https://github.com/yourusername/smart-home"
   },
   {
     id: 6,
-    title: "AI Image Generator",
-    description: "A web application that generates unique pixel art using machine learning models, with customizable styles and parameters.",
-    imageUrl: "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "PixelCrafted Web Portfolio",
+    description: "A unique pixel art–themed web portfolio built with React, blending retro aesthetics with modern development. Showcases personal projects, skills, and experiences through an interactive, game-inspired interface that reflects both creativity and technical expertise.",
+    imageUrl: "../public/port/Screenshot 2025-06-01 011146.png",
     images: [
-      "https://images.pexels.com/photos/8386473/pexels-photo-8386473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/8386487/pexels-photo-8386487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/8386493/pexels-photo-8386493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "../public/port/Screenshot 2025-06-01 011146.png",
+      "../public/port/Screenshot 2025-06-01 011217.png"
     ],
-    techStack: ["React", "Python", "PyTorch", "FastAPI", "WebGL"],
-    githubUrl: "https://github.com/yourusername/ai-pixel-art",
-    demoUrl: "https://ai-pixel-art.example.com"
+    techStack: ["React", "JavaScript"],
+    githubUrl: "https://github.com/Amene19/Personal-Portfolio-.git",
+  
   }
 ];
 
 export const experiences: IExperience[] = [
+  
   {
     id: 1,
-    title: "Lead Software Engineer",
-    company: "AI Solutions Inc.",
-    period: "2023 - Present",
-    description: "Leading development of AI-powered applications, managing cross-functional teams, and architecting scalable solutions across web, mobile, and desktop platforms.",
-    logoUrl: "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    isEducation: false
-  },
-  {
-    id: 2,
-    title: "Full Stack Developer",
-    company: "Tech Innovations Lab",
-    period: "2021 - 2023",
-    description: "Developed cross-platform applications using React, React Native, and Electron. Implemented machine learning models for predictive analytics.",
+    title: "Full-Stack Web Developer Intern",
+    company: "China Study Company",
+    period: "03-2025 - 05-2025",
+    description: "",
     logoUrl: "https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     isEducation: false
   },
   {
-    id: 3,
-    title: "Software Developer",
-    company: "Future Systems",
-    period: "2019 - 2021",
-    description: "Built and maintained web and mobile applications, integrated AI/ML capabilities, and optimized application performance.",
-    logoUrl: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    isEducation: false
-  },
-  {
-    id: 4,
-    title: "MSc in Artificial Intelligence",
-    company: "Tech University",
-    period: "2017 - 2019",
-    description: "Specialized in Machine Learning and Neural Networks. Research focus on AI applications in software development.",
-    logoUrl: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    id: 2,
+    title: "Engineering Student (Night Classes)",
+    company: "iTeam University",
+    period: "2024 - Present",
+    description: "",
+    logoUrl: "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     isEducation: true
   },
   {
+    id: 3,
+    title: "Research Master's Degree in Computer Science (AI)",
+    company: "Higher Institute of Computer Science (ISI)",
+    period: "2023 - 2025",
+    description: "",
+    logoUrl: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    isEducation: true
+  },
+  {
+    id: 4,
+    title: "Final-Year Project Intern",
+    company: "Consulting Firm AFIn",
+    period: "02-2023 - 06-2023",
+    description: "QHSE Tracking System with MERN Stack",
+    logoUrl: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    isEducation: false
+  },
+  {
     id: 5,
-    title: "BSc in Computer Science",
-    company: "Innovation College",
-    period: "2013 - 2017",
-    description: "Focus on Software Engineering and AI fundamentals. Led the AI/ML student research group.",
+    title: "Bachelor's degree in Computer Science",
+    company: "Faculty of Sciences of Tunis (FST)",
+    period: "2020 - 2023",
+    description: "",
     logoUrl: "https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     isEducation: true
   }
@@ -177,10 +179,10 @@ export const skills: ISkill[] = [
 ];
 
 export const aboutMe = {
-  name: "Your Name",
-  title: "Full-Stack Developer & AI Enthusiast",
-  bio: "I'm a passionate software developer specializing in creating innovative solutions across web, mobile, and desktop platforms. With expertise in AI/ML integration, I build intelligent applications that solve real-world problems. My focus is on delivering scalable, cross-platform solutions that leverage cutting-edge technologies.",
-  location: "San Francisco, CA",
-  email: "hello@yourname.dev",
-  resumeUrl: "/resume.pdf"
+  name: "Amene Allah Harhira",
+  title: "Full-Stack Developer",
+  bio: "I'm a Full-Stack Web Developer with a strong focus on the MERN stack and modern web technologies. Skilled in both front-end and back-end development, I build responsive, efficient, and maintainable applications. With a background in computer science and AI research, I bring a problem-solving mindset and a passion for continuous learning to every challenge.",
+  location: "Tunis, Tunisia",
+  email: "ameneallahharhira@gmail.com",
+  resumeUrl: "../public/ameneCV5.pdf"
 };

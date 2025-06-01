@@ -40,7 +40,26 @@ const HeroSection: React.FC = () => {
         <div className="w-24 h-24 mx-auto mb-6 bg-primary-light/90 rounded-lg pixel-borders overflow-hidden relative group">
           <div className="absolute inset-0 bg-gradient-to-tr from-accent/50 to-primary-light/50 opacity-75"></div>
           <div className="relative w-full h-full bg-accent-dark/90 flex items-center justify-center">
-            <span className="text-3xl group-hover:scale-110 transition-transform">AI</span>
+            <div className="w-16 h-16 relative group-hover:animate-spin-slow">
+              {/* Developer icon */}
+              <div className="absolute inset-0 grid grid-cols-4 grid-rows-4 gap-1">
+                {/* Terminal window */}
+                <div className="col-span-4 row-span-1 bg-accent flex items-center px-1">
+                  <div className="flex space-x-1">
+                    <div className="w-2 h-2 rounded-full bg-red-500"></div>
+                    <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
+                    <div className="w-2 h-2 rounded-full bg-green-500"></div>
+                  </div>
+                </div>
+                {/* Code lines */}
+                <div className="col-span-4 row-span-3 flex flex-col justify-between p-1">
+                  <div className="w-3/4 h-1 bg-accent"></div>
+                  <div className="w-1/2 h-1 bg-accent"></div>
+                  <div className="w-2/3 h-1 bg-accent"></div>
+                  <div className="w-1/4 h-1 bg-accent"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         
@@ -50,8 +69,12 @@ const HeroSection: React.FC = () => {
           <span className="text-accent">{'/>'}</span>
         </h1>
         
-        <p className="text-xs md:text-sm font-pixel text-accent-light mb-8 max-w-lg mx-auto">
+        <p className="text-xs md:text-sm font-pixel text-accent-light mb-2 max-w-lg mx-auto">
           {aboutMe.title}
+        </p>
+        
+        <p className="text-xs md:text-sm font-pixel text-accent mb-8 max-w-lg mx-auto animate-pulse">
+          Available for new opportunities
         </p>
         
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-12">

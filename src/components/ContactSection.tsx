@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Linkedin, Github, Mail, Phone } from 'lucide-react';
+import { Send, Linkedin, Github, Mail, Phone, X } from 'lucide-react';
 import { aboutMe } from '../data/portfolioData';
 
 const ContactSection: React.FC = () => {
@@ -8,6 +8,7 @@ const ContactSection: React.FC = () => {
     email: '',
     message: ''
   });
+  const [showNotification, setShowNotification] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -18,12 +19,37 @@ const ContactSection: React.FC = () => {
     e.preventDefault();
     // In a real application, you would send the form data to your backend or email service
     console.log('Form submitted:', formData);
-    alert('Thanks for your message! I\'ll get back to you soon.');
+    setShowNotification(true);
     setFormData({ name: '', email: '', message: '' });
+    
+    // Hide notification after 5 seconds
+    setTimeout(() => {
+      setShowNotification(false);
+    }, 5000);
   };
 
   return (
     <section id="contact" className="py-20 relative">
+      {/* Notification Popup */}
+      {showNotification && (
+        <div className="fixed top-4 right-4 z-50 animate-slide-in">
+          <div className="pixel-borders bg-accent-dark p-4 max-w-sm">
+            <div className="flex justify-between items-start mb-2">
+              <h4 className="text-sm font-pixel text-accent">Message Received!</h4>
+              <button 
+                onClick={() => setShowNotification(false)}
+                className="text-accent hover:text-white transition-colors"
+              >
+                <X size={16} />
+              </button>
+            </div>
+            <p className="text-xs font-pixel text-white">
+              Thanks for reaching out! I'll get back to you as soon as possible.
+            </p>
+          </div>
+        </div>
+      )}
+
       <div className="container mx-auto px-4">
         <h2 className="text-center text-xl md:text-2xl font-pixel mb-12 scanlines inline-block mx-auto">
           Contact Me
@@ -116,7 +142,7 @@ const ContactSection: React.FC = () => {
                   <div>
                     <p className="text-xs font-pixel mb-1">Phone</p>
                     <a href="tel:+11234567890" className="text-xs font-pixel hover:text-primary-light transition-colors">
-                      +1 (123) 456-7890
+                      +216 56032951
                     </a>
                   </div>
                 </div>
@@ -138,7 +164,7 @@ const ContactSection: React.FC = () => {
               
               <div className="flex space-x-4">
                 <a 
-                  href="https://linkedin.com/" 
+                  href="https://www.linkedin.com/in/harhira-amene-allah/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 pixel-borders hover:bg-primary-light hover:text-white transition-colors jiggle"
@@ -148,7 +174,7 @@ const ContactSection: React.FC = () => {
                 </a>
                 
                 <a 
-                  href="https://github.com/" 
+                  href="https://github.com/Amene19" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 pixel-borders hover:bg-primary-light hover:text-white transition-colors jiggle"

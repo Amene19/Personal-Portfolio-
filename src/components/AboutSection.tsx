@@ -13,9 +13,9 @@ const AboutSection: React.FC = () => {
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {/* Pixel Art Portrait */}
           <div className="md:col-span-1 flex justify-center">
-            <div className="w-48 h-48 pixel-borders overflow-hidden">
+            <div className="w-64 h-64 md:w-72 md:h-72 pixel-borders overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="../public/new.png" 
                 alt="Developer Portrait" 
                 className="w-full h-full object-cover pixel-art"
               />
@@ -44,6 +44,8 @@ const AboutSection: React.FC = () => {
                 
                 <a 
                   href={aboutMe.resumeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="pixel-button text-xs font-pixel flex items-center"
                 >
                   <FileDown size={14} className="mr-2" />
