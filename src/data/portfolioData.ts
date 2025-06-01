@@ -44,13 +44,13 @@ export const projects: IProject[] = [
     id: 2,
     title: "Passport Management and Processing System",
     description: "A cross-platform system designed for the Embassy of Spain to streamline passport categorization and requirement tracking. It includes a React.js web app for workers and an Electron.js desktop dashboard for admins, all connected to a Node.js + Express backend with a MySQL database. Features include passport scanning, requirement assignment, automatic PDF generation, real-time statistics, and a fully automated setup process for easy deployment.",
-    imageUrl: "/passport/Screenshot 2025-05-29 183446.png",
+    imageUrl: "/Passport/Screenshot 2025-05-29 183446.png",
     images: [
-      "/passport/Screenshot 2025-05-29 183446.png",
-      "/passport/Screenshot 2025-05-29 183505.png",
-      "/passport/Screenshot 2025-05-29 183521.png",
-      "/passport/Screenshot 2025-05-29 183550.png",
-      "/passport/Screenshot 2025-05-29 183620.png"
+      "/Passport/Screenshot 2025-05-29 183446.png",
+      "/Passport/Screenshot 2025-05-29 183505.png",
+      "/Passport/Screenshot 2025-05-29 183521.png",
+      "/Passport/Screenshot 2025-05-29 183550.png",
+      "/Passport/Screenshot 2025-05-29 183620.png"
     ],
     techStack: ["Electron", "React", "Node.js", "PostgreSQL", "Express"],
     githubUrl: "https://github.com/Amene19/Manage-Passport.git"
@@ -59,12 +59,12 @@ export const projects: IProject[] = [
     id: 3,
     title: "Business Portfolio and Reservation Management System",
     description: "Developed a full-stack web application using React, Express, and MySQL, showcasing a company's business portfolio and enabling users to make reservations for offered services. The system features dynamic content management, user-friendly interfaces, and a seamless booking workflow tailored for client engagement.",
-    imageUrl: "/machro3i/Screenshot 2025-06-01 001938.png",
+    imageUrl: "/Business/Screenshot 2025-06-01 001938.png",
     images: [
-      "/machro3i/Screenshot 2025-06-01 001938.png",
-      "/machro3i/Screenshot 2025-06-01 002044.png",
-      "/machro3i/Screenshot 2025-06-01 002126.png",
-      "/machro3i/Screenshot 2025-06-01 002212.png"
+      "/Business/Screenshot 2025-06-01 001938.png",
+      "/Business/Screenshot 2025-06-01 002044.png",
+      "/Business/Screenshot 2025-06-01 002126.png",
+      "/Business/Screenshot 2025-06-01 002212.png"
     ],
     techStack: ["React", "Node.js", "MySql", "Express"],
     githubUrl: "https://github.com/Amene19/Machrou3i-Fi-Bledi.git"
@@ -75,9 +75,9 @@ export const projects: IProject[] = [
     description: "Developed a Personal Finance Management application using JavaFX, enabling users to track income, expenses, and budgets. Implemented an intuitive UI with interactive charts, data persistence, and smooth navigation for an enhanced user experience.",
     imageUrl: "/Finance/Screenshot 2025-06-01 002735.png",
     images: [
-      "/pfin/Screenshot 2025-06-01 002735.png",
-      "/pfin/Screenshot 2025-06-01 002804.png",
-      "/pfin/Screenshot 2025-06-01 002834.png"
+      "/Finance/Screenshot 2025-06-01 002735.png",
+      "/Finance/Screenshot 2025-06-01 002804.png",
+      "/Finance/Screenshot 2025-06-01 002834.png"
     ],
     techStack: ["javaFX", "Java", "PostgreSQL"],
     githubUrl: "https://github.com/Amene19/Personal-Finance-app.git",
@@ -86,10 +86,10 @@ export const projects: IProject[] = [
     id: 5,
     title: "Camping Reservation System",
     description: "Developed a web application for camping reservations using the MERN stack . The platform allows users to browse campsites, check availability, and make bookings. ",
-    imageUrl: "/camping/Image 1 juin 2025, 01_03_15.png",
+    imageUrl: "/Camping/Image 1 juin 2025, 01_03_15.png",
     images: [
-      "/camping/Image 1 juin 2025, 01_03_15.png",
-      "/camping/Image 1 juin 2025, 01_06_17.png"
+      "/Camping/Image 1 juin 2025, 01_03_15.png",
+      "/Camping/Image 1 juin 2025, 01_06_17.png"
     ],
     techStack: ["React", "Node.js", "Express", "NextJs", "MySql"],
     githubUrl: "https://github.com/yourusername/smart-home"
@@ -100,8 +100,8 @@ export const projects: IProject[] = [
     description: "A unique pixel art–themed web portfolio built with React, blending retro aesthetics with modern development. Showcases personal projects, skills, and experiences through an interactive, game-inspired interface that reflects both creativity and technical expertise.",
     imageUrl: "/Portfolio/Screenshot 2025-06-01 011146.png",
     images: [
-      "/port/Screenshot 2025-06-01 011146.png",
-      "/port/Screenshot 2025-06-01 011217.png"
+      "/Portfolio/Screenshot 2025-06-01 011146.png",
+      "/Portfolio/Screenshot 2025-06-01 011217.png"
     ],
     techStack: ["React", "JavaScript"],
     githubUrl: "https://github.com/Amene19/Personal-Portfolio-.git",
