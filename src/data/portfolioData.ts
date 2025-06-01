@@ -184,5 +184,5 @@ export const aboutMe = {
   bio: "I'm a Full-Stack Web Developer with a strong focus on the MERN stack and modern web technologies. Skilled in both front-end and back-end development, I build responsive, efficient, and maintainable applications. With a background in computer science and AI research, I bring a problem-solving mindset and a passion for continuous learning to every challenge.",
   location: "Tunis, Tunisia",
   email: "ameneallahharhira@gmail.com",
-  resumeUrl: "/ameneCV5.pdf"
+  resumeUrl: "/ameneCv5.pdf"
 };
