@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
           <div className="md:col-span-1 flex justify-center">
             <div className="w-64 h-64 md:w-72 md:h-72 pixel-borders overflow-hidden">
               <img 
-                src="port/new.png" 
+                src="/port/new.png" 
                 alt="Developer Portrait" 
                 className="w-full h-full object-cover pixel-art"
               />
